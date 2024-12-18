@@ -1,0 +1,421 @@
+# Nmap 7.94SVN scan initiated Thu Nov  7 07:58:55 2024 as: nmap -e ens19 -sV -Pn -n -vvv -p- -oA Scan_TCP_20 192.168.20.0/24
+Nmap scan report for 192.168.20.0 [host down, received no-response]
+Nmap scan report for 192.168.20.1
+Host is up, received arp-response (0.00017s latency).
+Scanned at 2024-11-07 07:58:57 UTC for 235s
+Not shown: 65530 filtered tcp ports (no-response)
+PORT     STATE SERVICE    REASON         VERSION
+22/tcp   open  ssh        syn-ack ttl 64 OpenSSH 9.8 (protocol 2.0)
+53/tcp   open  domain     syn-ack ttl 64 Unbound 1.21.1
+80/tcp   open  http       syn-ack ttl 64 OPNsense
+443/tcp  open  ssl/https  syn-ack ttl 64 OPNsense
+3128/tcp open  http-proxy syn-ack ttl 64 Squid http proxy 6.10
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.94SVN%I=7%D=11/7%Time=672C73D0%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,94,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\x20
+SF:https:///\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20T
+SF:hu,\x2007\x20Nov\x202024\x2008:01:20\x20GMT\r\nServer:\x20OPNsense\r\n\
+SF:r\n")%r(HTTPOptions,94,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLoc
+SF:ation:\x20https:///\r\nContent-Length:\x200\r\nConnection:\x20close\r\n
+SF:Date:\x20Thu,\x2007\x20Nov\x202024\x2008:01:20\x20GMT\r\nServer:\x20OPN
+SF:sense\r\n\r\n")%r(RTSPRequest,136,"HTTP/1\.0\x20400\x20Bad\x20Request\r
+SF:\nContent-Type:\x20text/html\r\nContent-Length:\x20162\r\nConnection:\x
+SF:20close\r\nDate:\x20Thu,\x2007\x20Nov\x202024\x2008:01:20\x20GMT\r\nSer
+SF:ver:\x20OPNsense\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20
+SF:<head>\n\x20\x20<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20<title>400\x2
+SF:0Bad\x20Request</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>400\x20Ba
+SF:d\x20Request</h1>\n\x20</body>\n</html>\n")%r(FourOhFourRequest,B3,"HTT
+SF:P/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\x20https:///nice%20p
+SF:orts%2C/Trinity\.txt\.bak\r\nContent-Length:\x200\r\nConnection:\x20clo
+SF:se\r\nDate:\x20Thu,\x2007\x20Nov\x202024\x2008:01:25\x20GMT\r\nServer:\
+SF:x20OPNsense\r\n\r\n")%r(GenericLines,136,"HTTP/1\.0\x20400\x20Bad\x20Re
+SF:quest\r\nContent-Type:\x20text/html\r\nContent-Length:\x20162\r\nConnec
+SF:tion:\x20close\r\nDate:\x20Thu,\x2007\x20Nov\x202024\x2008:01:25\x20GMT
+SF:\r\nServer:\x20OPNsense\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"
+SF:>\n\x20<head>\n\x20\x20<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20<title
+SF:>400\x20Bad\x20Request</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>40
+SF:0\x20Bad\x20Request</h1>\n\x20</body>\n</html>\n")%r(DNSVersionBindReqT
+SF:CP,136,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/htm
+SF:l\r\nContent-Length:\x20162\r\nConnection:\x20close\r\nDate:\x20Thu,\x2
+SF:007\x20Nov\x202024\x2008:01:30\x20GMT\r\nServer:\x20OPNsense\r\n\r\n<!D
+SF:OCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20<head>\n\x20\x20<meta\x20ch
+SF:arset=\"UTF-8\"\x20/>\n\x20\x20<title>400\x20Bad\x20Request</title>\n\x
+SF:20</head>\n\x20<body>\n\x20\x20<h1>400\x20Bad\x20Request</h1>\n\x20</bo
+SF:dy>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=11/7%Time=672C73DB%P=x86_64-pc-linux-
+SF:gnu%r(GetRequest,90A,"HTTP/1\.0\x20200\x20OK\r\nSet-Cookie:\x20PHPSESSI
+SF:D=2f17c81360e8e53d3bb78742444ccde3;\x20path=/;\x20secure;\x20HttpOnly;\
+SF:x20SameSite=Lax\r\nSet-Cookie:\x20PHPSESSID=2f17c81360e8e53d3bb78742444
+SF:ccde3;\x20path=/;\x20secure;\x20HttpOnly\r\nExpires:\x20Thu,\x2019\x20N
+SF:ov\x201981\x2008:52:00\x20GMT\r\nCache-Control:\x20no-store,\x20no-cach
+SF:e,\x20must-revalidate\r\nPragma:\x20no-cache\r\nContent-Security-Policy
+SF::\x20default-src\x20'self';\x20script-src\x20'self'\x20'unsafe-inline'\
+SF:x20'unsafe-eval';\x20style-src\x20'self'\x20'unsafe-inline'\x20'unsafe-
+SF:eval';\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20
+SF:nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nReferrer-Policy:\x2
+SF:0same-origin\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\nContent
+SF:-Length:\x201603\r\nConnection:\x20close\r\nDate:\x20Thu,\x2007\x20Nov\
+SF:x202024\x2008:01:26\x20GMT\r\nServer:\x20OPNsense\r\n\r\n<!doctype\x20h
+SF:tml>\n<html\x20lang=\"en-US\"\x20class=\"no-js\">\n\x20\x20<head>\n\n\x
+SF:20\x20\x20\x20<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20\x20\x20<meta\x
+SF:20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\n\n\x20\x20\x2
+SF:0\x20<meta\x20name=\"robots\"\x20content=\"noindex,")%r(HTTPOptions,398
+SF:,"HTTP/1\.0\x20403\x20Forbidden\r\nSet-Cookie:\x20PHPSESSID=da659ed683d
+SF:3d1da62c2e88c8cb98921;\x20path=/;\x20secure;\x20HttpOnly;\x20SameSite=L
+SF:ax\r\nExpires:\x20Thu,\x2019\x20Nov\x201981\x2008:52:00\x20GMT\r\nCache
+SF:-Control:\x20no-store,\x20no-cache,\x20must-revalidate\r\nPragma:\x20no
+SF:-cache\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\nContent-Lengt
+SF:h:\x20553\r\nConnection:\x20close\r\nDate:\x20Thu,\x2007\x20Nov\x202024
+SF:\x2008:01:31\x20GMT\r\nServer:\x20OPNsense\r\n\r\n<html><head><title>CS
+SF:RF\x20check\x20failed</title>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20<script>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\$\(\x20document\x20\)\.ready\(function\(\)\x20{\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\$\.ajaxSetup\({\
+SF:n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20'beforeSend':\x20function\(xhr\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xhr\.setReque
+SF:stHeader\(\"X-CSRFToken\",\x20\"FLJgaUBQgQlPyEKaPdJkVA\"\x20\);\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\);\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\);\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20</script>\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20</head>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>CSRF\x20check\x20failed\.
+SF:\x20Your\x20form\x20session\x20may\x20have\x20expired,\x20or\x20you\x20
+SF:may\x20not\x20have\x20cookies\x20enabled\.</p>\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20");
+MAC Address: 20:6D:31:8C:A6:74 (Firewalla)
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+Nmap scan report for 192.168.20.2
+Host is up, received arp-response (0.00024s latency).
+Scanned at 2024-11-07 07:58:57 UTC for 234s
+Not shown: 65509 filtered tcp ports (no-response)
+PORT      STATE SERVICE       REASON          VERSION
+53/tcp    open  domain        syn-ack ttl 128 Simple DNS Plus
+80/tcp    open  http          syn-ack ttl 128 Microsoft IIS httpd 10.0
+88/tcp    open  kerberos-sec  syn-ack ttl 128 Microsoft Windows Kerberos (server time: 2024-11-07 08:00:40Z)
+135/tcp   open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 128 Microsoft Windows netbios-ssn
+389/tcp   open  ldap          syn-ack ttl 128 Microsoft Windows Active Directory LDAP (Domain: mifflin.lan0., Site: Default-First-Site-Name)
+443/tcp   open  ssl/http      syn-ack ttl 128 Microsoft IIS httpd 10.0
+445/tcp   open  microsoft-ds? syn-ack ttl 128
+464/tcp   open  kpasswd5?     syn-ack ttl 128
+593/tcp   open  ncacn_http    syn-ack ttl 128 Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped    syn-ack ttl 128
+3268/tcp  open  ldap          syn-ack ttl 128 Microsoft Windows Active Directory LDAP (Domain: mifflin.lan0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped    syn-ack ttl 128
+3389/tcp  open  ms-wbt-server syn-ack ttl 128 Microsoft Terminal Services
+5985/tcp  open  http          syn-ack ttl 128 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+9389/tcp  open  mc-nmf        syn-ack ttl 128 .NET Message Framing
+49664/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49669/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49817/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+51831/tcp open  ncacn_http    syn-ack ttl 128 Microsoft Windows RPC over HTTP 1.0
+51832/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+51835/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+51837/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+51841/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+51842/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+51852/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+MAC Address: 00:0E:0C:85:2C:7C (Intel)
+Service Info: Host: DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.20.3
+Host is up, received arp-response (0.00022s latency).
+Scanned at 2024-11-07 07:58:57 UTC for 234s
+Not shown: 65521 filtered tcp ports (no-response)
+PORT      STATE SERVICE       REASON          VERSION
+135/tcp   open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 128 Microsoft Windows netbios-ssn
+3389/tcp  open  ms-wbt-server syn-ack ttl 128 Microsoft Terminal Services
+5985/tcp  open  http          syn-ack ttl 128 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open  http          syn-ack ttl 128 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49669/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49670/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49692/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49696/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49737/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+MAC Address: 00:0E:0C:D7:E4:2E (Intel)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.20.4
+Host is up, received arp-response (0.0012s latency).
+Scanned at 2024-11-07 07:58:57 UTC for 234s
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack ttl 64 Apache httpd 2.4.41 ((Ubuntu))
+MAC Address: 14:CB:19:AA:38:B1 (HP)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.20.6 [host down, received no-response]
+Nmap scan report for 192.168.20.7 [host down, received no-response]
+Nmap scan report for 192.168.20.8 [host down, received no-response]
+Nmap scan report for 192.168.20.9 [host down, received no-response]
+Nmap scan report for 192.168.20.10 [host down, received no-response]
+Nmap scan report for 192.168.20.11 [host down, received no-response]
+Nmap scan report for 192.168.20.12 [host down, received no-response]
+Nmap scan report for 192.168.20.13 [host down, received no-response]
+Nmap scan report for 192.168.20.14 [host down, received no-response]
+Nmap scan report for 192.168.20.15 [host down, received no-response]
+Nmap scan report for 192.168.20.16 [host down, received no-response]
+Nmap scan report for 192.168.20.17 [host down, received no-response]
+Nmap scan report for 192.168.20.18 [host down, received no-response]
+Nmap scan report for 192.168.20.19 [host down, received no-response]
+Nmap scan report for 192.168.20.20 [host down, received no-response]
+Nmap scan report for 192.168.20.21 [host down, received no-response]
+Nmap scan report for 192.168.20.22 [host down, received no-response]
+Nmap scan report for 192.168.20.23 [host down, received no-response]
+Nmap scan report for 192.168.20.24 [host down, received no-response]
+Nmap scan report for 192.168.20.25 [host down, received no-response]
+Nmap scan report for 192.168.20.26 [host down, received no-response]
+Nmap scan report for 192.168.20.27 [host down, received no-response]
+Nmap scan report for 192.168.20.28 [host down, received no-response]
+Nmap scan report for 192.168.20.29 [host down, received no-response]
+Nmap scan report for 192.168.20.30 [host down, received no-response]
+Nmap scan report for 192.168.20.31 [host down, received no-response]
+Nmap scan report for 192.168.20.32 [host down, received no-response]
+Nmap scan report for 192.168.20.33 [host down, received no-response]
+Nmap scan report for 192.168.20.34 [host down, received no-response]
+Nmap scan report for 192.168.20.35 [host down, received no-response]
+Nmap scan report for 192.168.20.36 [host down, received no-response]
+Nmap scan report for 192.168.20.37 [host down, received no-response]
+Nmap scan report for 192.168.20.38 [host down, received no-response]
+Nmap scan report for 192.168.20.39 [host down, received no-response]
+Nmap scan report for 192.168.20.40 [host down, received no-response]
+Nmap scan report for 192.168.20.41 [host down, received no-response]
+Nmap scan report for 192.168.20.42 [host down, received no-response]
+Nmap scan report for 192.168.20.43 [host down, received no-response]
+Nmap scan report for 192.168.20.44 [host down, received no-response]
+Nmap scan report for 192.168.20.45 [host down, received no-response]
+Nmap scan report for 192.168.20.46 [host down, received no-response]
+Nmap scan report for 192.168.20.47 [host down, received no-response]
+Nmap scan report for 192.168.20.48 [host down, received no-response]
+Nmap scan report for 192.168.20.49 [host down, received no-response]
+Nmap scan report for 192.168.20.50 [host down, received no-response]
+Nmap scan report for 192.168.20.51 [host down, received no-response]
+Nmap scan report for 192.168.20.52 [host down, received no-response]
+Nmap scan report for 192.168.20.53 [host down, received no-response]
+Nmap scan report for 192.168.20.54 [host down, received no-response]
+Nmap scan report for 192.168.20.55 [host down, received no-response]
+Nmap scan report for 192.168.20.56 [host down, received no-response]
+Nmap scan report for 192.168.20.57 [host down, received no-response]
+Nmap scan report for 192.168.20.58 [host down, received no-response]
+Nmap scan report for 192.168.20.59 [host down, received no-response]
+Nmap scan report for 192.168.20.60 [host down, received no-response]
+Nmap scan report for 192.168.20.61 [host down, received no-response]
+Nmap scan report for 192.168.20.62 [host down, received no-response]
+Nmap scan report for 192.168.20.63 [host down, received no-response]
+Nmap scan report for 192.168.20.64 [host down, received no-response]
+Nmap scan report for 192.168.20.65 [host down, received no-response]
+Nmap scan report for 192.168.20.66 [host down, received no-response]
+Nmap scan report for 192.168.20.67 [host down, received no-response]
+Nmap scan report for 192.168.20.68 [host down, received no-response]
+Nmap scan report for 192.168.20.69 [host down, received no-response]
+Nmap scan report for 192.168.20.70 [host down, received no-response]
+Nmap scan report for 192.168.20.71 [host down, received no-response]
+Nmap scan report for 192.168.20.72 [host down, received no-response]
+Nmap scan report for 192.168.20.73 [host down, received no-response]
+Nmap scan report for 192.168.20.74 [host down, received no-response]
+Nmap scan report for 192.168.20.75 [host down, received no-response]
+Nmap scan report for 192.168.20.76 [host down, received no-response]
+Nmap scan report for 192.168.20.77 [host down, received no-response]
+Nmap scan report for 192.168.20.78 [host down, received no-response]
+Nmap scan report for 192.168.20.79 [host down, received no-response]
+Nmap scan report for 192.168.20.80 [host down, received no-response]
+Nmap scan report for 192.168.20.81 [host down, received no-response]
+Nmap scan report for 192.168.20.82 [host down, received no-response]
+Nmap scan report for 192.168.20.83 [host down, received no-response]
+Nmap scan report for 192.168.20.84 [host down, received no-response]
+Nmap scan report for 192.168.20.85 [host down, received no-response]
+Nmap scan report for 192.168.20.86 [host down, received no-response]
+Nmap scan report for 192.168.20.87 [host down, received no-response]
+Nmap scan report for 192.168.20.88 [host down, received no-response]
+Nmap scan report for 192.168.20.89 [host down, received no-response]
+Nmap scan report for 192.168.20.90 [host down, received no-response]
+Nmap scan report for 192.168.20.91 [host down, received no-response]
+Nmap scan report for 192.168.20.92 [host down, received no-response]
+Nmap scan report for 192.168.20.93 [host down, received no-response]
+Nmap scan report for 192.168.20.94 [host down, received no-response]
+Nmap scan report for 192.168.20.95 [host down, received no-response]
+Nmap scan report for 192.168.20.96 [host down, received no-response]
+Nmap scan report for 192.168.20.97 [host down, received no-response]
+Nmap scan report for 192.168.20.98 [host down, received no-response]
+Nmap scan report for 192.168.20.99 [host down, received no-response]
+Nmap scan report for 192.168.20.100 [host down, received no-response]
+Nmap scan report for 192.168.20.101 [host down, received no-response]
+Nmap scan report for 192.168.20.102 [host down, received no-response]
+Nmap scan report for 192.168.20.103 [host down, received no-response]
+Nmap scan report for 192.168.20.104 [host down, received no-response]
+Nmap scan report for 192.168.20.105 [host down, received no-response]
+Nmap scan report for 192.168.20.106 [host down, received no-response]
+Nmap scan report for 192.168.20.107 [host down, received no-response]
+Nmap scan report for 192.168.20.108 [host down, received no-response]
+Nmap scan report for 192.168.20.109 [host down, received no-response]
+Nmap scan report for 192.168.20.110 [host down, received no-response]
+Nmap scan report for 192.168.20.111 [host down, received no-response]
+Nmap scan report for 192.168.20.112 [host down, received no-response]
+Nmap scan report for 192.168.20.113 [host down, received no-response]
+Nmap scan report for 192.168.20.114 [host down, received no-response]
+Nmap scan report for 192.168.20.115 [host down, received no-response]
+Nmap scan report for 192.168.20.116 [host down, received no-response]
+Nmap scan report for 192.168.20.117 [host down, received no-response]
+Nmap scan report for 192.168.20.118 [host down, received no-response]
+Nmap scan report for 192.168.20.119 [host down, received no-response]
+Nmap scan report for 192.168.20.120 [host down, received no-response]
+Nmap scan report for 192.168.20.121 [host down, received no-response]
+Nmap scan report for 192.168.20.122 [host down, received no-response]
+Nmap scan report for 192.168.20.123 [host down, received no-response]
+Nmap scan report for 192.168.20.124 [host down, received no-response]
+Nmap scan report for 192.168.20.125 [host down, received no-response]
+Nmap scan report for 192.168.20.126 [host down, received no-response]
+Nmap scan report for 192.168.20.127 [host down, received no-response]
+Nmap scan report for 192.168.20.128 [host down, received no-response]
+Nmap scan report for 192.168.20.129 [host down, received no-response]
+Nmap scan report for 192.168.20.130 [host down, received no-response]
+Nmap scan report for 192.168.20.131 [host down, received no-response]
+Nmap scan report for 192.168.20.132 [host down, received no-response]
+Nmap scan report for 192.168.20.133 [host down, received no-response]
+Nmap scan report for 192.168.20.134 [host down, received no-response]
+Nmap scan report for 192.168.20.135 [host down, received no-response]
+Nmap scan report for 192.168.20.136 [host down, received no-response]
+Nmap scan report for 192.168.20.137 [host down, received no-response]
+Nmap scan report for 192.168.20.138 [host down, received no-response]
+Nmap scan report for 192.168.20.139 [host down, received no-response]
+Nmap scan report for 192.168.20.140 [host down, received no-response]
+Nmap scan report for 192.168.20.141 [host down, received no-response]
+Nmap scan report for 192.168.20.142 [host down, received no-response]
+Nmap scan report for 192.168.20.143 [host down, received no-response]
+Nmap scan report for 192.168.20.144 [host down, received no-response]
+Nmap scan report for 192.168.20.145 [host down, received no-response]
+Nmap scan report for 192.168.20.146 [host down, received no-response]
+Nmap scan report for 192.168.20.147 [host down, received no-response]
+Nmap scan report for 192.168.20.148 [host down, received no-response]
+Nmap scan report for 192.168.20.149 [host down, received no-response]
+Nmap scan report for 192.168.20.150 [host down, received no-response]
+Nmap scan report for 192.168.20.151 [host down, received no-response]
+Nmap scan report for 192.168.20.152 [host down, received no-response]
+Nmap scan report for 192.168.20.153 [host down, received no-response]
+Nmap scan report for 192.168.20.154 [host down, received no-response]
+Nmap scan report for 192.168.20.155 [host down, received no-response]
+Nmap scan report for 192.168.20.156 [host down, received no-response]
+Nmap scan report for 192.168.20.157 [host down, received no-response]
+Nmap scan report for 192.168.20.158 [host down, received no-response]
+Nmap scan report for 192.168.20.159 [host down, received no-response]
+Nmap scan report for 192.168.20.160 [host down, received no-response]
+Nmap scan report for 192.168.20.161 [host down, received no-response]
+Nmap scan report for 192.168.20.162 [host down, received no-response]
+Nmap scan report for 192.168.20.163 [host down, received no-response]
+Nmap scan report for 192.168.20.164 [host down, received no-response]
+Nmap scan report for 192.168.20.165 [host down, received no-response]
+Nmap scan report for 192.168.20.166 [host down, received no-response]
+Nmap scan report for 192.168.20.167 [host down, received no-response]
+Nmap scan report for 192.168.20.168 [host down, received no-response]
+Nmap scan report for 192.168.20.169 [host down, received no-response]
+Nmap scan report for 192.168.20.170 [host down, received no-response]
+Nmap scan report for 192.168.20.171 [host down, received no-response]
+Nmap scan report for 192.168.20.172 [host down, received no-response]
+Nmap scan report for 192.168.20.173 [host down, received no-response]
+Nmap scan report for 192.168.20.174 [host down, received no-response]
+Nmap scan report for 192.168.20.175 [host down, received no-response]
+Nmap scan report for 192.168.20.176 [host down, received no-response]
+Nmap scan report for 192.168.20.177 [host down, received no-response]
+Nmap scan report for 192.168.20.178 [host down, received no-response]
+Nmap scan report for 192.168.20.179 [host down, received no-response]
+Nmap scan report for 192.168.20.180 [host down, received no-response]
+Nmap scan report for 192.168.20.181 [host down, received no-response]
+Nmap scan report for 192.168.20.182 [host down, received no-response]
+Nmap scan report for 192.168.20.183 [host down, received no-response]
+Nmap scan report for 192.168.20.184 [host down, received no-response]
+Nmap scan report for 192.168.20.185 [host down, received no-response]
+Nmap scan report for 192.168.20.186 [host down, received no-response]
+Nmap scan report for 192.168.20.187 [host down, received no-response]
+Nmap scan report for 192.168.20.188 [host down, received no-response]
+Nmap scan report for 192.168.20.189 [host down, received no-response]
+Nmap scan report for 192.168.20.190 [host down, received no-response]
+Nmap scan report for 192.168.20.191 [host down, received no-response]
+Nmap scan report for 192.168.20.192 [host down, received no-response]
+Nmap scan report for 192.168.20.193 [host down, received no-response]
+Nmap scan report for 192.168.20.194 [host down, received no-response]
+Nmap scan report for 192.168.20.195 [host down, received no-response]
+Nmap scan report for 192.168.20.196 [host down, received no-response]
+Nmap scan report for 192.168.20.197 [host down, received no-response]
+Nmap scan report for 192.168.20.198 [host down, received no-response]
+Nmap scan report for 192.168.20.199 [host down, received no-response]
+Nmap scan report for 192.168.20.200 [host down, received no-response]
+Nmap scan report for 192.168.20.201 [host down, received no-response]
+Nmap scan report for 192.168.20.202 [host down, received no-response]
+Nmap scan report for 192.168.20.203 [host down, received no-response]
+Nmap scan report for 192.168.20.204 [host down, received no-response]
+Nmap scan report for 192.168.20.205 [host down, received no-response]
+Nmap scan report for 192.168.20.206 [host down, received no-response]
+Nmap scan report for 192.168.20.207 [host down, received no-response]
+Nmap scan report for 192.168.20.208 [host down, received no-response]
+Nmap scan report for 192.168.20.209 [host down, received no-response]
+Nmap scan report for 192.168.20.210 [host down, received no-response]
+Nmap scan report for 192.168.20.211 [host down, received no-response]
+Nmap scan report for 192.168.20.212 [host down, received no-response]
+Nmap scan report for 192.168.20.213 [host down, received no-response]
+Nmap scan report for 192.168.20.214 [host down, received no-response]
+Nmap scan report for 192.168.20.215 [host down, received no-response]
+Nmap scan report for 192.168.20.216 [host down, received no-response]
+Nmap scan report for 192.168.20.217 [host down, received no-response]
+Nmap scan report for 192.168.20.218 [host down, received no-response]
+Nmap scan report for 192.168.20.219 [host down, received no-response]
+Nmap scan report for 192.168.20.220 [host down, received no-response]
+Nmap scan report for 192.168.20.221 [host down, received no-response]
+Nmap scan report for 192.168.20.222 [host down, received no-response]
+Nmap scan report for 192.168.20.223 [host down, received no-response]
+Nmap scan report for 192.168.20.224 [host down, received no-response]
+Nmap scan report for 192.168.20.225 [host down, received no-response]
+Nmap scan report for 192.168.20.226 [host down, received no-response]
+Nmap scan report for 192.168.20.227 [host down, received no-response]
+Nmap scan report for 192.168.20.228 [host down, received no-response]
+Nmap scan report for 192.168.20.229 [host down, received no-response]
+Nmap scan report for 192.168.20.230 [host down, received no-response]
+Nmap scan report for 192.168.20.231 [host down, received no-response]
+Nmap scan report for 192.168.20.232 [host down, received no-response]
+Nmap scan report for 192.168.20.233 [host down, received no-response]
+Nmap scan report for 192.168.20.234 [host down, received no-response]
+Nmap scan report for 192.168.20.235 [host down, received no-response]
+Nmap scan report for 192.168.20.236 [host down, received no-response]
+Nmap scan report for 192.168.20.237 [host down, received no-response]
+Nmap scan report for 192.168.20.238 [host down, received no-response]
+Nmap scan report for 192.168.20.239 [host down, received no-response]
+Nmap scan report for 192.168.20.240 [host down, received no-response]
+Nmap scan report for 192.168.20.241 [host down, received no-response]
+Nmap scan report for 192.168.20.242 [host down, received no-response]
+Nmap scan report for 192.168.20.243 [host down, received no-response]
+Nmap scan report for 192.168.20.244 [host down, received no-response]
+Nmap scan report for 192.168.20.245 [host down, received no-response]
+Nmap scan report for 192.168.20.246 [host down, received no-response]
+Nmap scan report for 192.168.20.247 [host down, received no-response]
+Nmap scan report for 192.168.20.248 [host down, received no-response]
+Nmap scan report for 192.168.20.249 [host down, received no-response]
+Nmap scan report for 192.168.20.250 [host down, received no-response]
+Nmap scan report for 192.168.20.251 [host down, received no-response]
+Nmap scan report for 192.168.20.252 [host down, received no-response]
+Nmap scan report for 192.168.20.253 [host down, received no-response]
+Nmap scan report for 192.168.20.254 [host down, received no-response]
+Nmap scan report for 192.168.20.255 [host down, received no-response]
+Nmap scan report for 192.168.20.5
+Host is up, received arp-response (0.00044s latency).
+Scanned at 2024-11-07 08:02:52 UTC for 115s
+Not shown: 65533 filtered tcp ports (no-response)
+PORT      STATE SERVICE REASON         VERSION
+22/tcp    open  ssh     syn-ack ttl 64 OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)
+55414/tcp open  http    syn-ack ttl 64 UrBackup httpd 2.0.2 or later
+MAC Address: BC:24:11:A1:71:09 (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov  7 08:04:47 2024 -- 256 IP addresses (5 hosts up) scanned in 352.00 seconds

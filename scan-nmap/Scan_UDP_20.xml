@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Thu Nov  7 08:07:01 2024 as: nmap -e ens19 -sUV -F -Pn -n -vvv -oA Scan_UDP_20 192.168.20.0/24 -->
+<nmaprun scanner="nmap" args="nmap -e ens19 -sUV -F -Pn -n -vvv -oA Scan_UDP_20 192.168.20.0/24" start="1730966821" startstr="Thu Nov  7 08:07:01 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="100" services="7,9,17,19,49,53,67-69,80,88,111,120,123,135-139,158,161-162,177,427,443,445,497,500,514-515,518,520,593,623,626,631,996-999,1022-1023,1025-1030,1433-1434,1645-1646,1701,1718-1719,1812-1813,1900,2000,2048-2049,2222-2223,3283,3456,3703,4444,4500,5000,5060,5353,5632,9200,10000,17185,20031,30718,31337,32768-32769,32771,32815,33281,49152-49154,49156,49181-49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="ARP Ping Scan" time="1730966821"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.5" addrtype="ipv4"/>
+<address addr="BC:24:11:A1:71:09" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.3" addrtype="ipv4"/>
+<address addr="00:0E:0C:D7:E4:2E" addrtype="mac" vendor="Intel"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.1" addrtype="ipv4"/>
+<address addr="20:6D:31:8C:A6:74" addrtype="mac" vendor="Firewalla"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.2" addrtype="ipv4"/>
+<address addr="00:0E:0C:85:2C:7C" addrtype="mac" vendor="Intel"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.4" addrtype="ipv4"/>
+<address addr="14:CB:19:AA:38:B1" addrtype="mac" vendor="HP"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="ARP Ping Scan" time="1730966823" extrainfo="256 total hosts"/>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.0" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.6" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.7" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.8" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.9" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.10" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.11" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.12" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.13" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.14" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.15" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.16" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.17" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.18" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.19" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.20" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.21" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.22" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.23" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.24" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.25" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.26" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.27" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.28" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.29" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.30" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.31" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.32" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.33" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.34" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.35" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.36" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.37" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.38" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.39" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.40" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.41" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.42" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.43" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.44" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.45" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.46" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.47" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.48" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.49" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.50" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.51" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.52" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.53" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.54" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.55" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.56" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.57" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.58" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.59" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.60" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.61" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.62" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.63" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.64" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.65" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.66" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.67" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.68" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.69" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.70" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.71" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.72" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.73" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.74" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.75" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.76" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.77" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.78" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.79" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.80" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.81" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.82" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.83" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.84" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.85" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.86" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.87" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.88" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.89" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.90" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.91" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.92" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.93" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.94" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.95" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.96" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.97" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.98" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.99" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.100" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.101" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.102" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.103" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.104" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.105" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.106" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.107" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.108" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.109" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.110" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.111" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.112" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.113" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.114" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.115" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.116" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.117" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.118" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.119" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.120" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.121" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.122" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.123" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.124" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.125" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.126" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.127" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.128" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.129" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.130" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.131" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.132" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.133" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.134" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.135" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.136" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.137" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.138" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.139" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.140" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.141" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.142" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.143" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.144" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.145" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.146" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.147" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.148" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.149" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.150" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.151" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.152" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.153" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.154" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.155" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.156" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.157" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.158" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.159" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.160" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.161" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.162" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.163" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.164" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.165" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.166" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.167" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.168" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.169" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.170" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.171" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.172" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.173" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.174" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.175" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.176" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.177" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.178" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.179" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.180" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.181" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.182" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.183" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.184" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.185" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.186" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.187" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.188" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.189" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.190" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.191" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.192" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.193" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.194" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.195" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.196" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.197" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.198" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.199" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.200" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.201" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.202" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.203" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.204" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.205" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.206" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.207" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.208" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.209" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.210" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.211" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.212" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.213" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.214" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.215" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.216" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.217" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.218" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.219" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.220" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.221" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.222" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.223" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.224" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.225" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.226" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.227" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.228" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.229" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.230" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.231" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.232" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.233" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.234" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.235" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.236" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.237" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.238" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.239" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.240" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.241" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.242" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.243" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.244" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.245" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.246" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.247" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.248" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.249" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.250" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.251" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.252" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.253" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.254" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="192.168.20.255" addrtype="ipv4"/>
+</host>
+<taskbegin task="UDP Scan" time="1730966823"/>
+<taskend task="UDP Scan" time="1730966961" extrainfo="500 total ports"/>
+<taskbegin task="Service scan" time="1730966961"/>
+<taskprogress task="Service scan" time="1730967059" percent="2.29" remaining="4186" etc="1730971245"/>
+<taskprogress task="Service scan" time="1730967156" percent="8.82" remaining="2016" etc="1730969171"/>
+<taskprogress task="Service scan" time="1730967254" percent="15.36" remaining="1615" etc="1730968869"/>
+<taskprogress task="Service scan" time="1730967351" percent="21.90" remaining="1392" etc="1730968742"/>
+<taskprogress task="Service scan" time="1730967381" percent="28.76" remaining="1041" etc="1730968421"/>
+<taskprogress task="Service scan" time="1730967454" percent="29.08" remaining="1203" etc="1730968656"/>
+<taskprogress task="Service scan" time="1730967551" percent="35.62" remaining="1067" etc="1730968617"/>
+<taskprogress task="Service scan" time="1730967592" percent="41.83" remaining="878" etc="1730968469"/>
+<taskprogress task="Service scan" time="1730967674" percent="47.39" remaining="792" etc="1730968466"/>
+<taskprogress task="Service scan" time="1730967767" percent="52.94" remaining="717" etc="1730968483"/>
+<taskprogress task="Service scan" time="1730967869" percent="59.15" remaining="628" etc="1730968496"/>
+<taskprogress task="Service scan" time="1730967972" percent="66.34" remaining="513" etc="1730968485"/>
+<taskprogress task="Service scan" time="1730968069" percent="71.90" remaining="434" etc="1730968502"/>
+<taskprogress task="Service scan" time="1730968167" percent="77.78" remaining="345" etc="1730968512"/>
+<taskprogress task="Service scan" time="1730968260" percent="83.01" remaining="266" etc="1730968526"/>
+<taskprogress task="Service scan" time="1730968290" percent="87.91" remaining="183" etc="1730968473"/>
+<taskprogress task="Service scan" time="1730968382" percent="93.46" remaining="100" etc="1730968481"/>
+<taskend task="Service scan" time="1730968485" extrainfo="306 services on 5 hosts"/>
+<taskbegin task="NSE" time="1730968485"/>
+<taskend task="NSE" time="1730968502"/>
+<taskbegin task="NSE" time="1730968502"/>
+<taskend task="NSE" time="1730968517"/>
+<host starttime="1730966823" endtime="1730968517"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.1" addrtype="ipv4"/>
+<address addr="20:6D:31:8C:A6:74" addrtype="mac" vendor="Firewalla"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="7"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="echo" method="table" conf="3"/></port>
+<port protocol="udp" portid="9"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="udp" portid="17"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="qotd" method="table" conf="3"/></port>
+<port protocol="udp" portid="19"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="chargen" method="table" conf="3"/></port>
+<port protocol="udp" portid="49"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="open" reason="udp-response" reason_ttl="64"/><service name="domain" product="Unbound" version="1.21.1" method="probed" conf="10"><cpe>cpe:/a:nlnetlabs:unbound:1.21.1</cpe></service></port>
+<port protocol="udp" portid="67"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="68"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="88"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="kerberos-sec" product="Microsoft Windows Kerberos" extrainfo="server time: 2024-11-07 08:06:30Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="111"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="udp" portid="120"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="cfdptkt" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="open" reason="udp-response" reason_ttl="64"/><service name="ntp" product="NTP" version="v4" extrainfo="secondary server" method="probed" conf="10"/></port>
+<port protocol="udp" portid="135"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="136"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ns" product="Microsoft Windows netbios-ns" extrainfo="Domain controller: MIFFLIN" hostname="DC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="139"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="udp" portid="158"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcmail-srv" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="162"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmptrap" method="table" conf="3"/></port>
+<port protocol="udp" portid="177"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="xdmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="427"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="svrloc" method="table" conf="3"/></port>
+<port protocol="udp" portid="443"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="497"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="retrospect" method="table" conf="3"/></port>
+<port protocol="udp" portid="500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="isakmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="515"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="udp" portid="518"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ntalk" method="table" conf="3"/></port>
+<port protocol="udp" portid="520"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="route" method="table" conf="3"/></port>
+<port protocol="udp" portid="593"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="http-rpc-epmap" method="table" conf="3"/></port>
+<port protocol="udp" portid="623"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="asf-rmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="626"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="serialnumberd" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="996"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="vsinet" method="table" conf="3"/></port>
+<port protocol="udp" portid="997"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="maitrd" method="table" conf="3"/></port>
+<port protocol="udp" portid="998"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="puparp" method="table" conf="3"/></port>
+<port protocol="udp" portid="999"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="applix" method="table" conf="3"/></port>
+<port protocol="udp" portid="1022"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="exp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="1023"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="1025"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="blackjack" method="table" conf="3"/></port>
+<port protocol="udp" portid="1026"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="win-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1027"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="1028"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-lsa" method="table" conf="3"/></port>
+<port protocol="udp" portid="1029"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="solid-mux" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="1433"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="udp" portid="1434"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-m" method="table" conf="3"/></port>
+<port protocol="udp" portid="1645"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1646"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1701"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="L2TP" method="table" conf="3"/></port>
+<port protocol="udp" portid="1718"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h225gatedisc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1719"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h323gatestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="1812"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1813"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1900"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2048"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dls-monitor" method="table" conf="3"/></port>
+<port protocol="udp" portid="2049"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="udp" portid="2222"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msantipiracy" method="table" conf="3"/></port>
+<port protocol="udp" portid="2223"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="rockwell-csp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="3283"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netassistant" method="table" conf="3"/></port>
+<port protocol="udp" portid="3456"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="IISrpc-or-vat" method="table" conf="3"/></port>
+<port protocol="udp" portid="3703"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="adobeserver-3" method="table" conf="3"/></port>
+<port protocol="udp" portid="4444"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="krb524" method="table" conf="3"/></port>
+<port protocol="udp" portid="4500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nat-t-ike" method="table" conf="3"/></port>
+<port protocol="udp" portid="5000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="5060"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sip" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="zeroconf" method="table" conf="3"/></port>
+<port protocol="udp" portid="5632"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="9200"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wap-wsp" method="table" conf="3"/></port>
+<port protocol="udp" portid="10000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ndmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="17185"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wdbrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="20031"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="bakbonenetvault" method="table" conf="3"/></port>
+<port protocol="udp" portid="30718"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="31337"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="BackOrifice" method="table" conf="3"/></port>
+<port protocol="udp" portid="32768"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="omad" method="table" conf="3"/></port>
+<port protocol="udp" portid="32769"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="filenet-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="32815"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="33281"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49152"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49153"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49154"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49156"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49181"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49182"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49185"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49186"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49188"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49190"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49191"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49192"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49193"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49194"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49200"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49201"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="65024"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<times srtt="512" rttvar="2960" to="100000"/>
+</host>
+<host starttime="1730966823" endtime="1730968517"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.2" addrtype="ipv4"/>
+<address addr="00:0E:0C:85:2C:7C" addrtype="mac" vendor="Intel"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="7"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="echo" method="table" conf="3"/></port>
+<port protocol="udp" portid="9"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="udp" portid="17"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="qotd" method="table" conf="3"/></port>
+<port protocol="udp" portid="19"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="chargen" method="table" conf="3"/></port>
+<port protocol="udp" portid="49"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="open" reason="udp-response" reason_ttl="128"/><service name="domain" product="Simple DNS Plus" extrainfo="generic dns response: NOTIMP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:jh_software:simple_dns_plus</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="67"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="68"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="88"><state state="open" reason="udp-response" reason_ttl="128"/><service name="kerberos-sec" product="Microsoft Windows Kerberos" extrainfo="server time: 2024-11-07 08:15:30Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="111"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="udp" portid="120"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="cfdptkt" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="open" reason="udp-response" reason_ttl="128"/><service name="ntp" product="NTP" version="v3" method="probed" conf="10"/></port>
+<port protocol="udp" portid="135"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="136"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open" reason="udp-response" reason_ttl="128"/><service name="netbios-ns" product="Microsoft Windows netbios-ns" extrainfo="workgroup: MIFFLIN" hostname="FILE-SERVER" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="139"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="udp" portid="158"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcmail-srv" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="162"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmptrap" method="table" conf="3"/></port>
+<port protocol="udp" portid="177"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="xdmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="427"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="svrloc" method="table" conf="3"/></port>
+<port protocol="udp" portid="443"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="497"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="retrospect" method="table" conf="3"/></port>
+<port protocol="udp" portid="500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="isakmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="515"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="udp" portid="518"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ntalk" method="table" conf="3"/></port>
+<port protocol="udp" portid="520"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="route" method="table" conf="3"/></port>
+<port protocol="udp" portid="593"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="http-rpc-epmap" method="table" conf="3"/></port>
+<port protocol="udp" portid="623"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="asf-rmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="626"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="serialnumberd" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="996"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="vsinet" method="table" conf="3"/></port>
+<port protocol="udp" portid="997"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="maitrd" method="table" conf="3"/></port>
+<port protocol="udp" portid="998"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="puparp" method="table" conf="3"/></port>
+<port protocol="udp" portid="999"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="applix" method="table" conf="3"/></port>
+<port protocol="udp" portid="1022"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="exp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="1023"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="1025"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="blackjack" method="table" conf="3"/></port>
+<port protocol="udp" portid="1026"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="win-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1027"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="1028"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-lsa" method="table" conf="3"/></port>
+<port protocol="udp" portid="1029"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="solid-mux" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="1433"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="udp" portid="1434"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-m" method="table" conf="3"/></port>
+<port protocol="udp" portid="1645"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1646"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1701"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="L2TP" method="table" conf="3"/></port>
+<port protocol="udp" portid="1718"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h225gatedisc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1719"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h323gatestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="1812"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1813"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1900"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2048"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dls-monitor" method="table" conf="3"/></port>
+<port protocol="udp" portid="2049"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="udp" portid="2222"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msantipiracy" method="table" conf="3"/></port>
+<port protocol="udp" portid="2223"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="rockwell-csp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="3283"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netassistant" method="table" conf="3"/></port>
+<port protocol="udp" portid="3456"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="IISrpc-or-vat" method="table" conf="3"/></port>
+<port protocol="udp" portid="3703"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="adobeserver-3" method="table" conf="3"/></port>
+<port protocol="udp" portid="4444"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="krb524" method="table" conf="3"/></port>
+<port protocol="udp" portid="4500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nat-t-ike" method="table" conf="3"/></port>
+<port protocol="udp" portid="5000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="5060"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sip" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="zeroconf" method="table" conf="3"/></port>
+<port protocol="udp" portid="5632"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="9200"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wap-wsp" method="table" conf="3"/></port>
+<port protocol="udp" portid="10000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ndmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="17185"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wdbrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="20031"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="bakbonenetvault" method="table" conf="3"/></port>
+<port protocol="udp" portid="30718"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="31337"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="BackOrifice" method="table" conf="3"/></port>
+<port protocol="udp" portid="32768"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="omad" method="table" conf="3"/></port>
+<port protocol="udp" portid="32769"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="filenet-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="32815"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="33281"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49152"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49153"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49154"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49156"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49181"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49182"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49185"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49186"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49188"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49190"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49191"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49192"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49193"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49194"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49200"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49201"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="65024"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<times srtt="427" rttvar="1640" to="100000"/>
+</host>
+<host starttime="1730966823" endtime="1730968515"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.3" addrtype="ipv4"/>
+<address addr="00:0E:0C:D7:E4:2E" addrtype="mac" vendor="Intel"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="7"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="echo" method="table" conf="3"/></port>
+<port protocol="udp" portid="9"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="udp" portid="17"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="qotd" method="table" conf="3"/></port>
+<port protocol="udp" portid="19"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="chargen" method="table" conf="3"/></port>
+<port protocol="udp" portid="49"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="67"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="68"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="69"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="88"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="udp" portid="111"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="udp" portid="120"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="cfdptkt" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="udp" portid="135"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="136"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open" reason="udp-response" reason_ttl="128"/><service name="netbios-ns" product="Microsoft Windows netbios-ns" extrainfo="workgroup: MIFFLIN" hostname="FILE-SERVER" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="139"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="udp" portid="158"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="pcmail-srv" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="162"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmptrap" method="table" conf="3"/></port>
+<port protocol="udp" portid="177"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="xdmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="427"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="svrloc" method="table" conf="3"/></port>
+<port protocol="udp" portid="443"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="https" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="497"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="retrospect" method="table" conf="3"/></port>
+<port protocol="udp" portid="500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="isakmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="515"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="udp" portid="518"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="ntalk" method="table" conf="3"/></port>
+<port protocol="udp" portid="520"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="route" method="table" conf="3"/></port>
+<port protocol="udp" portid="593"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="http-rpc-epmap" method="table" conf="3"/></port>
+<port protocol="udp" portid="623"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="asf-rmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="626"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="serialnumberd" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="996"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="vsinet" method="table" conf="3"/></port>
+<port protocol="udp" portid="997"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="maitrd" method="table" conf="3"/></port>
+<port protocol="udp" portid="998"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="puparp" method="table" conf="3"/></port>
+<port protocol="udp" portid="999"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="applix" method="table" conf="3"/></port>
+<port protocol="udp" portid="1022"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="exp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="1023"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="1025"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="blackjack" method="table" conf="3"/></port>
+<port protocol="udp" portid="1026"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="win-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1027"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="1028"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="ms-lsa" method="table" conf="3"/></port>
+<port protocol="udp" portid="1029"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="solid-mux" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="1433"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="udp" portid="1434"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="ms-sql-m" method="table" conf="3"/></port>
+<port protocol="udp" portid="1645"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1646"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1701"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="L2TP" method="table" conf="3"/></port>
+<port protocol="udp" portid="1718"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="h225gatedisc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1719"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="h323gatestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="1812"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1813"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1900"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2000"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="cisco-sccp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2048"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="dls-monitor" method="table" conf="3"/></port>
+<port protocol="udp" portid="2049"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="udp" portid="2222"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="msantipiracy" method="table" conf="3"/></port>
+<port protocol="udp" portid="2223"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="rockwell-csp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="3283"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="netassistant" method="table" conf="3"/></port>
+<port protocol="udp" portid="3456"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="IISrpc-or-vat" method="table" conf="3"/></port>
+<port protocol="udp" portid="3703"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="adobeserver-3" method="table" conf="3"/></port>
+<port protocol="udp" portid="4444"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="krb524" method="table" conf="3"/></port>
+<port protocol="udp" portid="4500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nat-t-ike" method="table" conf="3"/></port>
+<port protocol="udp" portid="5000"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="5060"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="sip" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="zeroconf" method="table" conf="3"/></port>
+<port protocol="udp" portid="5632"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="9200"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="wap-wsp" method="table" conf="3"/></port>
+<port protocol="udp" portid="10000"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="ndmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="17185"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="wdbrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="20031"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="bakbonenetvault" method="table" conf="3"/></port>
+<port protocol="udp" portid="30718"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="31337"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="BackOrifice" method="table" conf="3"/></port>
+<port protocol="udp" portid="32768"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="omad" method="table" conf="3"/></port>
+<port protocol="udp" portid="32769"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="filenet-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="32815"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="33281"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49152"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49153"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49154"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49156"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49181"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49182"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49185"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49186"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49188"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49190"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49191"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49192"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49193"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49194"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49200"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="49201"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+<port protocol="udp" portid="65024"><state state="closed" reason="port-unreach" reason_ttl="128"/></port>
+</ports>
+<times srtt="383" rttvar="98" to="100000"/>
+</host>
+<host starttime="1730966823" endtime="1730968505"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.4" addrtype="ipv4"/>
+<address addr="14:CB:19:AA:38:B1" addrtype="mac" vendor="HP"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="7"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="echo" method="table" conf="3"/></port>
+<port protocol="udp" portid="9"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="udp" portid="17"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="qotd" method="table" conf="3"/></port>
+<port protocol="udp" portid="19"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="chargen" method="table" conf="3"/></port>
+<port protocol="udp" portid="49"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="67"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="68"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="69"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="88"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="udp" portid="111"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="udp" portid="120"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="cfdptkt" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="udp" portid="135"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="136"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="138"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="139"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="udp" portid="158"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="pcmail-srv" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="162"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmptrap" method="table" conf="3"/></port>
+<port protocol="udp" portid="177"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="xdmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="427"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="svrloc" method="table" conf="3"/></port>
+<port protocol="udp" portid="443"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="497"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="retrospect" method="table" conf="3"/></port>
+<port protocol="udp" portid="500"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="isakmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="515"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="udp" portid="518"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ntalk" method="table" conf="3"/></port>
+<port protocol="udp" portid="520"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="route" method="table" conf="3"/></port>
+<port protocol="udp" portid="593"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http-rpc-epmap" method="table" conf="3"/></port>
+<port protocol="udp" portid="623"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="asf-rmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="626"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="serialnumberd" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="996"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="vsinet" method="table" conf="3"/></port>
+<port protocol="udp" portid="997"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="maitrd" method="table" conf="3"/></port>
+<port protocol="udp" portid="998"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="puparp" method="table" conf="3"/></port>
+<port protocol="udp" portid="999"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="applix" method="table" conf="3"/></port>
+<port protocol="udp" portid="1022"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="exp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="1023"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="1025"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="blackjack" method="table" conf="3"/></port>
+<port protocol="udp" portid="1026"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="win-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1027"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="1028"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ms-lsa" method="table" conf="3"/></port>
+<port protocol="udp" portid="1029"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="solid-mux" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="1433"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="udp" portid="1434"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ms-sql-m" method="table" conf="3"/></port>
+<port protocol="udp" portid="1645"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1646"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1701"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="L2TP" method="table" conf="3"/></port>
+<port protocol="udp" portid="1718"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="h225gatedisc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1719"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="h323gatestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="1812"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1813"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1900"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="cisco-sccp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2048"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="dls-monitor" method="table" conf="3"/></port>
+<port protocol="udp" portid="2049"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="udp" portid="2222"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="msantipiracy" method="table" conf="3"/></port>
+<port protocol="udp" portid="2223"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="rockwell-csp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="3283"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="netassistant" method="table" conf="3"/></port>
+<port protocol="udp" portid="3456"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="IISrpc-or-vat" method="table" conf="3"/></port>
+<port protocol="udp" portid="3703"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="adobeserver-3" method="table" conf="3"/></port>
+<port protocol="udp" portid="4444"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="krb524" method="table" conf="3"/></port>
+<port protocol="udp" portid="4500"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="nat-t-ike" method="table" conf="3"/></port>
+<port protocol="udp" portid="5000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="5060"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="sip" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="zeroconf" method="table" conf="3"/></port>
+<port protocol="udp" portid="5632"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="9200"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="wap-wsp" method="table" conf="3"/></port>
+<port protocol="udp" portid="10000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ndmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="17185"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="wdbrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="20031"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="bakbonenetvault" method="table" conf="3"/></port>
+<port protocol="udp" portid="30718"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="31337"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="BackOrifice" method="table" conf="3"/></port>
+<port protocol="udp" portid="32768"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="omad" method="table" conf="3"/></port>
+<port protocol="udp" portid="32769"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="filenet-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="32815"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="33281"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49152"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49153"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49154"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49156"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49181"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49182"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49185"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49186"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49188"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49190"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49191"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49192"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49193"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49194"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49200"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="49201"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="65024"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+</ports>
+<times srtt="1193" rttvar="86" to="100000"/>
+</host>
+<host starttime="1730966823" endtime="1730968517"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.20.5" addrtype="ipv4"/>
+<address addr="BC:24:11:A1:71:09" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="7"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="echo" method="table" conf="3"/></port>
+<port protocol="udp" portid="9"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="udp" portid="17"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="qotd" method="table" conf="3"/></port>
+<port protocol="udp" portid="19"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="chargen" method="table" conf="3"/></port>
+<port protocol="udp" portid="49"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="67"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="68"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="88"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="udp" portid="111"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="udp" portid="120"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="cfdptkt" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="udp" portid="135"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="136"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="139"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="udp" portid="158"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcmail-srv" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="162"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmptrap" method="table" conf="3"/></port>
+<port protocol="udp" portid="177"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="xdmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="427"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="svrloc" method="table" conf="3"/></port>
+<port protocol="udp" portid="443"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="497"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="retrospect" method="table" conf="3"/></port>
+<port protocol="udp" portid="500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="isakmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="515"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="udp" portid="518"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ntalk" method="table" conf="3"/></port>
+<port protocol="udp" portid="520"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="route" method="table" conf="3"/></port>
+<port protocol="udp" portid="593"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="http-rpc-epmap" method="table" conf="3"/></port>
+<port protocol="udp" portid="623"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="asf-rmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="626"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="serialnumberd" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="996"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="vsinet" method="table" conf="3"/></port>
+<port protocol="udp" portid="997"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="maitrd" method="table" conf="3"/></port>
+<port protocol="udp" portid="998"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="puparp" method="table" conf="3"/></port>
+<port protocol="udp" portid="999"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="applix" method="table" conf="3"/></port>
+<port protocol="udp" portid="1022"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="exp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="1023"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="1025"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="blackjack" method="table" conf="3"/></port>
+<port protocol="udp" portid="1026"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="win-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1027"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="1028"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-lsa" method="table" conf="3"/></port>
+<port protocol="udp" portid="1029"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="solid-mux" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="1433"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="udp" portid="1434"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-m" method="table" conf="3"/></port>
+<port protocol="udp" portid="1645"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1646"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1701"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="L2TP" method="table" conf="3"/></port>
+<port protocol="udp" portid="1718"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h225gatedisc" method="table" conf="3"/></port>
+<port protocol="udp" portid="1719"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h323gatestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="1812"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1813"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radacct" method="table" conf="3"/></port>
+<port protocol="udp" portid="1900"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2048"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dls-monitor" method="table" conf="3"/></port>
+<port protocol="udp" portid="2049"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="udp" portid="2222"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msantipiracy" method="table" conf="3"/></port>
+<port protocol="udp" portid="2223"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="rockwell-csp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="3283"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netassistant" method="table" conf="3"/></port>
+<port protocol="udp" portid="3456"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="IISrpc-or-vat" method="table" conf="3"/></port>
+<port protocol="udp" portid="3703"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="adobeserver-3" method="table" conf="3"/></port>
+<port protocol="udp" portid="4444"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="krb524" method="table" conf="3"/></port>
+<port protocol="udp" portid="4500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nat-t-ike" method="table" conf="3"/></port>
+<port protocol="udp" portid="5000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="5060"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sip" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="zeroconf" method="table" conf="3"/></port>
+<port protocol="udp" portid="5632"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="9200"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wap-wsp" method="table" conf="3"/></port>
+<port protocol="udp" portid="10000"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ndmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="17185"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wdbrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="20031"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="bakbonenetvault" method="table" conf="3"/></port>
+<port protocol="udp" portid="30718"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="31337"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="BackOrifice" method="table" conf="3"/></port>
+<port protocol="udp" portid="32768"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="omad" method="table" conf="3"/></port>
+<port protocol="udp" portid="32769"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="filenet-rpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="32815"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="33281"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49152"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49153"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49154"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49156"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49181"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49182"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49185"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49186"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49188"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49190"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49191"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49192"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49193"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49194"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49200"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="49201"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="udp" portid="65024"><state state="open|filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<times srtt="352" rttvar="461" to="100000"/>
+</host>
+<runstats><finished time="1730968517" timestr="Thu Nov  7 08:35:17 2024" summary="Nmap done at Thu Nov  7 08:35:17 2024; 256 IP addresses (5 hosts up) scanned in 1695.86 seconds" elapsed="1695.86" exit="success"/><hosts up="5" down="251" total="256"/>
+</runstats>
+</nmaprun>

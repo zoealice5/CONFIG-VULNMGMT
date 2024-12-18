@@ -1,0 +1,472 @@
+# Nmap 7.94SVN scan initiated Thu Nov  7 08:07:42 2024 as: nmap -e ens20 -sUV -F -Pn -n -vvv -oA Scan_UDP_30 192.168.30.0/24
+Nmap scan report for 192.168.30.0 [host down, received no-response]
+Nmap scan report for 192.168.30.3 [host down, received no-response]
+Nmap scan report for 192.168.30.4 [host down, received no-response]
+Nmap scan report for 192.168.30.5 [host down, received no-response]
+Nmap scan report for 192.168.30.6 [host down, received no-response]
+Nmap scan report for 192.168.30.7 [host down, received no-response]
+Nmap scan report for 192.168.30.8 [host down, received no-response]
+Nmap scan report for 192.168.30.9 [host down, received no-response]
+Nmap scan report for 192.168.30.10 [host down, received no-response]
+Nmap scan report for 192.168.30.11 [host down, received no-response]
+Nmap scan report for 192.168.30.12 [host down, received no-response]
+Nmap scan report for 192.168.30.13 [host down, received no-response]
+Nmap scan report for 192.168.30.14 [host down, received no-response]
+Nmap scan report for 192.168.30.15 [host down, received no-response]
+Nmap scan report for 192.168.30.16 [host down, received no-response]
+Nmap scan report for 192.168.30.17 [host down, received no-response]
+Nmap scan report for 192.168.30.18 [host down, received no-response]
+Nmap scan report for 192.168.30.19 [host down, received no-response]
+Nmap scan report for 192.168.30.20 [host down, received no-response]
+Nmap scan report for 192.168.30.21 [host down, received no-response]
+Nmap scan report for 192.168.30.22 [host down, received no-response]
+Nmap scan report for 192.168.30.23 [host down, received no-response]
+Nmap scan report for 192.168.30.24 [host down, received no-response]
+Nmap scan report for 192.168.30.25 [host down, received no-response]
+Nmap scan report for 192.168.30.26 [host down, received no-response]
+Nmap scan report for 192.168.30.27 [host down, received no-response]
+Nmap scan report for 192.168.30.28 [host down, received no-response]
+Nmap scan report for 192.168.30.29 [host down, received no-response]
+Nmap scan report for 192.168.30.30 [host down, received no-response]
+Nmap scan report for 192.168.30.31 [host down, received no-response]
+Nmap scan report for 192.168.30.32 [host down, received no-response]
+Nmap scan report for 192.168.30.33 [host down, received no-response]
+Nmap scan report for 192.168.30.34 [host down, received no-response]
+Nmap scan report for 192.168.30.35 [host down, received no-response]
+Nmap scan report for 192.168.30.36 [host down, received no-response]
+Nmap scan report for 192.168.30.37 [host down, received no-response]
+Nmap scan report for 192.168.30.38 [host down, received no-response]
+Nmap scan report for 192.168.30.39 [host down, received no-response]
+Nmap scan report for 192.168.30.40 [host down, received no-response]
+Nmap scan report for 192.168.30.41 [host down, received no-response]
+Nmap scan report for 192.168.30.42 [host down, received no-response]
+Nmap scan report for 192.168.30.43 [host down, received no-response]
+Nmap scan report for 192.168.30.44 [host down, received no-response]
+Nmap scan report for 192.168.30.45 [host down, received no-response]
+Nmap scan report for 192.168.30.46 [host down, received no-response]
+Nmap scan report for 192.168.30.47 [host down, received no-response]
+Nmap scan report for 192.168.30.48 [host down, received no-response]
+Nmap scan report for 192.168.30.49 [host down, received no-response]
+Nmap scan report for 192.168.30.50 [host down, received no-response]
+Nmap scan report for 192.168.30.51 [host down, received no-response]
+Nmap scan report for 192.168.30.52 [host down, received no-response]
+Nmap scan report for 192.168.30.53 [host down, received no-response]
+Nmap scan report for 192.168.30.54 [host down, received no-response]
+Nmap scan report for 192.168.30.55 [host down, received no-response]
+Nmap scan report for 192.168.30.56 [host down, received no-response]
+Nmap scan report for 192.168.30.57 [host down, received no-response]
+Nmap scan report for 192.168.30.58 [host down, received no-response]
+Nmap scan report for 192.168.30.59 [host down, received no-response]
+Nmap scan report for 192.168.30.60 [host down, received no-response]
+Nmap scan report for 192.168.30.61 [host down, received no-response]
+Nmap scan report for 192.168.30.62 [host down, received no-response]
+Nmap scan report for 192.168.30.63 [host down, received no-response]
+Nmap scan report for 192.168.30.64 [host down, received no-response]
+Nmap scan report for 192.168.30.65 [host down, received no-response]
+Nmap scan report for 192.168.30.66 [host down, received no-response]
+Nmap scan report for 192.168.30.67 [host down, received no-response]
+Nmap scan report for 192.168.30.68 [host down, received no-response]
+Nmap scan report for 192.168.30.69 [host down, received no-response]
+Nmap scan report for 192.168.30.70 [host down, received no-response]
+Nmap scan report for 192.168.30.71 [host down, received no-response]
+Nmap scan report for 192.168.30.72 [host down, received no-response]
+Nmap scan report for 192.168.30.73 [host down, received no-response]
+Nmap scan report for 192.168.30.74 [host down, received no-response]
+Nmap scan report for 192.168.30.75 [host down, received no-response]
+Nmap scan report for 192.168.30.76 [host down, received no-response]
+Nmap scan report for 192.168.30.77 [host down, received no-response]
+Nmap scan report for 192.168.30.78 [host down, received no-response]
+Nmap scan report for 192.168.30.79 [host down, received no-response]
+Nmap scan report for 192.168.30.80 [host down, received no-response]
+Nmap scan report for 192.168.30.81 [host down, received no-response]
+Nmap scan report for 192.168.30.82 [host down, received no-response]
+Nmap scan report for 192.168.30.83 [host down, received no-response]
+Nmap scan report for 192.168.30.84 [host down, received no-response]
+Nmap scan report for 192.168.30.85 [host down, received no-response]
+Nmap scan report for 192.168.30.86 [host down, received no-response]
+Nmap scan report for 192.168.30.87 [host down, received no-response]
+Nmap scan report for 192.168.30.88 [host down, received no-response]
+Nmap scan report for 192.168.30.89 [host down, received no-response]
+Nmap scan report for 192.168.30.90 [host down, received no-response]
+Nmap scan report for 192.168.30.91 [host down, received no-response]
+Nmap scan report for 192.168.30.92 [host down, received no-response]
+Nmap scan report for 192.168.30.93 [host down, received no-response]
+Nmap scan report for 192.168.30.94 [host down, received no-response]
+Nmap scan report for 192.168.30.95 [host down, received no-response]
+Nmap scan report for 192.168.30.96 [host down, received no-response]
+Nmap scan report for 192.168.30.97 [host down, received no-response]
+Nmap scan report for 192.168.30.98 [host down, received no-response]
+Nmap scan report for 192.168.30.99 [host down, received no-response]
+Nmap scan report for 192.168.30.100 [host down, received no-response]
+Nmap scan report for 192.168.30.101 [host down, received no-response]
+Nmap scan report for 192.168.30.102 [host down, received no-response]
+Nmap scan report for 192.168.30.103 [host down, received no-response]
+Nmap scan report for 192.168.30.104 [host down, received no-response]
+Nmap scan report for 192.168.30.105 [host down, received no-response]
+Nmap scan report for 192.168.30.106 [host down, received no-response]
+Nmap scan report for 192.168.30.107 [host down, received no-response]
+Nmap scan report for 192.168.30.108 [host down, received no-response]
+Nmap scan report for 192.168.30.109 [host down, received no-response]
+Nmap scan report for 192.168.30.110 [host down, received no-response]
+Nmap scan report for 192.168.30.111 [host down, received no-response]
+Nmap scan report for 192.168.30.112 [host down, received no-response]
+Nmap scan report for 192.168.30.113 [host down, received no-response]
+Nmap scan report for 192.168.30.114 [host down, received no-response]
+Nmap scan report for 192.168.30.115 [host down, received no-response]
+Nmap scan report for 192.168.30.116 [host down, received no-response]
+Nmap scan report for 192.168.30.117 [host down, received no-response]
+Nmap scan report for 192.168.30.118 [host down, received no-response]
+Nmap scan report for 192.168.30.119 [host down, received no-response]
+Nmap scan report for 192.168.30.120 [host down, received no-response]
+Nmap scan report for 192.168.30.121 [host down, received no-response]
+Nmap scan report for 192.168.30.122 [host down, received no-response]
+Nmap scan report for 192.168.30.123 [host down, received no-response]
+Nmap scan report for 192.168.30.124 [host down, received no-response]
+Nmap scan report for 192.168.30.125 [host down, received no-response]
+Nmap scan report for 192.168.30.126 [host down, received no-response]
+Nmap scan report for 192.168.30.127 [host down, received no-response]
+Nmap scan report for 192.168.30.128 [host down, received no-response]
+Nmap scan report for 192.168.30.129 [host down, received no-response]
+Nmap scan report for 192.168.30.130 [host down, received no-response]
+Nmap scan report for 192.168.30.131 [host down, received no-response]
+Nmap scan report for 192.168.30.132 [host down, received no-response]
+Nmap scan report for 192.168.30.133 [host down, received no-response]
+Nmap scan report for 192.168.30.134 [host down, received no-response]
+Nmap scan report for 192.168.30.135 [host down, received no-response]
+Nmap scan report for 192.168.30.136 [host down, received no-response]
+Nmap scan report for 192.168.30.137 [host down, received no-response]
+Nmap scan report for 192.168.30.138 [host down, received no-response]
+Nmap scan report for 192.168.30.139 [host down, received no-response]
+Nmap scan report for 192.168.30.140 [host down, received no-response]
+Nmap scan report for 192.168.30.141 [host down, received no-response]
+Nmap scan report for 192.168.30.142 [host down, received no-response]
+Nmap scan report for 192.168.30.143 [host down, received no-response]
+Nmap scan report for 192.168.30.144 [host down, received no-response]
+Nmap scan report for 192.168.30.145 [host down, received no-response]
+Nmap scan report for 192.168.30.146 [host down, received no-response]
+Nmap scan report for 192.168.30.147 [host down, received no-response]
+Nmap scan report for 192.168.30.148 [host down, received no-response]
+Nmap scan report for 192.168.30.149 [host down, received no-response]
+Nmap scan report for 192.168.30.150 [host down, received no-response]
+Nmap scan report for 192.168.30.151 [host down, received no-response]
+Nmap scan report for 192.168.30.152 [host down, received no-response]
+Nmap scan report for 192.168.30.153 [host down, received no-response]
+Nmap scan report for 192.168.30.154 [host down, received no-response]
+Nmap scan report for 192.168.30.155 [host down, received no-response]
+Nmap scan report for 192.168.30.156 [host down, received no-response]
+Nmap scan report for 192.168.30.157 [host down, received no-response]
+Nmap scan report for 192.168.30.158 [host down, received no-response]
+Nmap scan report for 192.168.30.159 [host down, received no-response]
+Nmap scan report for 192.168.30.160 [host down, received no-response]
+Nmap scan report for 192.168.30.161 [host down, received no-response]
+Nmap scan report for 192.168.30.162 [host down, received no-response]
+Nmap scan report for 192.168.30.163 [host down, received no-response]
+Nmap scan report for 192.168.30.164 [host down, received no-response]
+Nmap scan report for 192.168.30.165 [host down, received no-response]
+Nmap scan report for 192.168.30.166 [host down, received no-response]
+Nmap scan report for 192.168.30.167 [host down, received no-response]
+Nmap scan report for 192.168.30.168 [host down, received no-response]
+Nmap scan report for 192.168.30.169 [host down, received no-response]
+Nmap scan report for 192.168.30.170 [host down, received no-response]
+Nmap scan report for 192.168.30.171 [host down, received no-response]
+Nmap scan report for 192.168.30.172 [host down, received no-response]
+Nmap scan report for 192.168.30.173 [host down, received no-response]
+Nmap scan report for 192.168.30.174 [host down, received no-response]
+Nmap scan report for 192.168.30.175 [host down, received no-response]
+Nmap scan report for 192.168.30.176 [host down, received no-response]
+Nmap scan report for 192.168.30.177 [host down, received no-response]
+Nmap scan report for 192.168.30.178 [host down, received no-response]
+Nmap scan report for 192.168.30.179 [host down, received no-response]
+Nmap scan report for 192.168.30.180 [host down, received no-response]
+Nmap scan report for 192.168.30.181 [host down, received no-response]
+Nmap scan report for 192.168.30.182 [host down, received no-response]
+Nmap scan report for 192.168.30.183 [host down, received no-response]
+Nmap scan report for 192.168.30.184 [host down, received no-response]
+Nmap scan report for 192.168.30.185 [host down, received no-response]
+Nmap scan report for 192.168.30.186 [host down, received no-response]
+Nmap scan report for 192.168.30.187 [host down, received no-response]
+Nmap scan report for 192.168.30.188 [host down, received no-response]
+Nmap scan report for 192.168.30.189 [host down, received no-response]
+Nmap scan report for 192.168.30.190 [host down, received no-response]
+Nmap scan report for 192.168.30.191 [host down, received no-response]
+Nmap scan report for 192.168.30.192 [host down, received no-response]
+Nmap scan report for 192.168.30.193 [host down, received no-response]
+Nmap scan report for 192.168.30.194 [host down, received no-response]
+Nmap scan report for 192.168.30.195 [host down, received no-response]
+Nmap scan report for 192.168.30.196 [host down, received no-response]
+Nmap scan report for 192.168.30.197 [host down, received no-response]
+Nmap scan report for 192.168.30.198 [host down, received no-response]
+Nmap scan report for 192.168.30.199 [host down, received no-response]
+Nmap scan report for 192.168.30.200 [host down, received no-response]
+Nmap scan report for 192.168.30.201 [host down, received no-response]
+Nmap scan report for 192.168.30.202 [host down, received no-response]
+Nmap scan report for 192.168.30.203 [host down, received no-response]
+Nmap scan report for 192.168.30.204 [host down, received no-response]
+Nmap scan report for 192.168.30.205 [host down, received no-response]
+Nmap scan report for 192.168.30.206 [host down, received no-response]
+Nmap scan report for 192.168.30.207 [host down, received no-response]
+Nmap scan report for 192.168.30.208 [host down, received no-response]
+Nmap scan report for 192.168.30.209 [host down, received no-response]
+Nmap scan report for 192.168.30.210 [host down, received no-response]
+Nmap scan report for 192.168.30.211 [host down, received no-response]
+Nmap scan report for 192.168.30.212 [host down, received no-response]
+Nmap scan report for 192.168.30.213 [host down, received no-response]
+Nmap scan report for 192.168.30.214 [host down, received no-response]
+Nmap scan report for 192.168.30.215 [host down, received no-response]
+Nmap scan report for 192.168.30.216 [host down, received no-response]
+Nmap scan report for 192.168.30.217 [host down, received no-response]
+Nmap scan report for 192.168.30.218 [host down, received no-response]
+Nmap scan report for 192.168.30.219 [host down, received no-response]
+Nmap scan report for 192.168.30.220 [host down, received no-response]
+Nmap scan report for 192.168.30.221 [host down, received no-response]
+Nmap scan report for 192.168.30.222 [host down, received no-response]
+Nmap scan report for 192.168.30.223 [host down, received no-response]
+Nmap scan report for 192.168.30.224 [host down, received no-response]
+Nmap scan report for 192.168.30.225 [host down, received no-response]
+Nmap scan report for 192.168.30.226 [host down, received no-response]
+Nmap scan report for 192.168.30.227 [host down, received no-response]
+Nmap scan report for 192.168.30.228 [host down, received no-response]
+Nmap scan report for 192.168.30.229 [host down, received no-response]
+Nmap scan report for 192.168.30.230 [host down, received no-response]
+Nmap scan report for 192.168.30.231 [host down, received no-response]
+Nmap scan report for 192.168.30.232 [host down, received no-response]
+Nmap scan report for 192.168.30.233 [host down, received no-response]
+Nmap scan report for 192.168.30.234 [host down, received no-response]
+Nmap scan report for 192.168.30.235 [host down, received no-response]
+Nmap scan report for 192.168.30.236 [host down, received no-response]
+Nmap scan report for 192.168.30.237 [host down, received no-response]
+Nmap scan report for 192.168.30.238 [host down, received no-response]
+Nmap scan report for 192.168.30.239 [host down, received no-response]
+Nmap scan report for 192.168.30.240 [host down, received no-response]
+Nmap scan report for 192.168.30.241 [host down, received no-response]
+Nmap scan report for 192.168.30.242 [host down, received no-response]
+Nmap scan report for 192.168.30.243 [host down, received no-response]
+Nmap scan report for 192.168.30.244 [host down, received no-response]
+Nmap scan report for 192.168.30.245 [host down, received no-response]
+Nmap scan report for 192.168.30.246 [host down, received no-response]
+Nmap scan report for 192.168.30.247 [host down, received no-response]
+Nmap scan report for 192.168.30.248 [host down, received no-response]
+Nmap scan report for 192.168.30.249 [host down, received no-response]
+Nmap scan report for 192.168.30.250 [host down, received no-response]
+Nmap scan report for 192.168.30.251 [host down, received no-response]
+Nmap scan report for 192.168.30.252 [host down, received no-response]
+Nmap scan report for 192.168.30.253 [host down, received no-response]
+Nmap scan report for 192.168.30.254 [host down, received no-response]
+Nmap scan report for 192.168.30.255 [host down, received no-response]
+Nmap scan report for 192.168.30.1
+Host is up, received arp-response (0.00024s latency).
+Scanned at 2024-11-07 08:07:44 UTC for 868s
+
+PORT      STATE         SERVICE         REASON              VERSION
+7/udp     open|filtered echo            no-response
+9/udp     open|filtered discard         no-response
+17/udp    open|filtered qotd            no-response
+19/udp    open|filtered chargen         no-response
+49/udp    open|filtered tacacs          no-response
+53/udp    open          domain          udp-response ttl 64 Unbound 1.21.1
+67/udp    open|filtered dhcps           no-response
+68/udp    open|filtered dhcpc           no-response
+69/udp    open|filtered tftp            no-response
+80/udp    open|filtered http            no-response
+88/udp    open|filtered kerberos-sec    no-response
+111/udp   open|filtered rpcbind         no-response
+120/udp   open|filtered cfdptkt         no-response
+123/udp   open          ntp             udp-response ttl 64 NTP v4 (secondary server)
+135/udp   open|filtered msrpc           no-response
+136/udp   open|filtered profile         no-response
+137/udp   open|filtered netbios-ns      no-response
+138/udp   open|filtered netbios-dgm     no-response
+139/udp   open|filtered netbios-ssn     no-response
+158/udp   open|filtered pcmail-srv      no-response
+161/udp   open|filtered snmp            no-response
+162/udp   open|filtered snmptrap        no-response
+177/udp   open|filtered xdmcp           no-response
+427/udp   open|filtered svrloc          no-response
+443/udp   open|filtered https           no-response
+445/udp   open|filtered microsoft-ds    no-response
+497/udp   open|filtered retrospect      no-response
+500/udp   open|filtered isakmp          no-response
+514/udp   open|filtered syslog          no-response
+515/udp   open|filtered printer         no-response
+518/udp   open|filtered ntalk           no-response
+520/udp   open|filtered route           no-response
+593/udp   open|filtered http-rpc-epmap  no-response
+623/udp   open|filtered asf-rmcp        no-response
+626/udp   open|filtered serialnumberd   no-response
+631/udp   open|filtered ipp             no-response
+996/udp   open|filtered vsinet          no-response
+997/udp   open|filtered maitrd          no-response
+998/udp   open|filtered puparp          no-response
+999/udp   open|filtered applix          no-response
+1022/udp  open|filtered exp2            no-response
+1023/udp  open|filtered unknown         no-response
+1025/udp  open|filtered blackjack       no-response
+1026/udp  open|filtered win-rpc         no-response
+1027/udp  open|filtered unknown         no-response
+1028/udp  open|filtered ms-lsa          no-response
+1029/udp  open|filtered solid-mux       no-response
+1030/udp  open|filtered iad1            no-response
+1433/udp  open|filtered ms-sql-s        no-response
+1434/udp  open|filtered ms-sql-m        no-response
+1645/udp  open|filtered radius          no-response
+1646/udp  open|filtered radacct         no-response
+1701/udp  open|filtered L2TP            no-response
+1718/udp  open|filtered h225gatedisc    no-response
+1719/udp  open|filtered h323gatestat    no-response
+1812/udp  open|filtered radius          no-response
+1813/udp  open|filtered radacct         no-response
+1900/udp  open|filtered upnp            no-response
+2000/udp  open|filtered cisco-sccp      no-response
+2048/udp  open|filtered dls-monitor     no-response
+2049/udp  open|filtered nfs             no-response
+2222/udp  open|filtered msantipiracy    no-response
+2223/udp  open|filtered rockwell-csp2   no-response
+3283/udp  open|filtered netassistant    no-response
+3456/udp  open|filtered IISrpc-or-vat   no-response
+3703/udp  open|filtered adobeserver-3   no-response
+4444/udp  open|filtered krb524          no-response
+4500/udp  open|filtered nat-t-ike       no-response
+5000/udp  open|filtered upnp            no-response
+5060/udp  open|filtered sip             no-response
+5353/udp  open|filtered zeroconf        no-response
+5632/udp  open|filtered pcanywherestat  no-response
+9200/udp  open|filtered wap-wsp         no-response
+10000/udp open|filtered ndmp            no-response
+17185/udp open|filtered wdbrpc          no-response
+20031/udp open|filtered bakbonenetvault no-response
+30718/udp open|filtered unknown         no-response
+31337/udp open|filtered BackOrifice     no-response
+32768/udp open|filtered omad            no-response
+32769/udp open|filtered filenet-rpc     no-response
+32771/udp open|filtered sometimes-rpc6  no-response
+32815/udp open|filtered unknown         no-response
+33281/udp open|filtered unknown         no-response
+49152/udp open|filtered unknown         no-response
+49153/udp open|filtered unknown         no-response
+49154/udp open|filtered unknown         no-response
+49156/udp open|filtered unknown         no-response
+49181/udp open|filtered unknown         no-response
+49182/udp open|filtered unknown         no-response
+49185/udp open|filtered unknown         no-response
+49186/udp open|filtered unknown         no-response
+49188/udp open|filtered unknown         no-response
+49190/udp open|filtered unknown         no-response
+49191/udp open|filtered unknown         no-response
+49192/udp open|filtered unknown         no-response
+49193/udp open|filtered unknown         no-response
+49194/udp open|filtered unknown         no-response
+49200/udp open|filtered unknown         no-response
+49201/udp open|filtered unknown         no-response
+65024/udp open|filtered unknown         no-response
+MAC Address: 20:6D:31:8C:A6:74 (Firewalla)
+
+Nmap scan report for 192.168.30.2
+Host is up, received arp-response (0.00035s latency).
+Scanned at 2024-11-07 08:07:44 UTC for 868s
+
+PORT      STATE         SERVICE         REASON              VERSION
+7/udp     open|filtered echo            no-response
+9/udp     open|filtered discard         no-response
+17/udp    open|filtered qotd            no-response
+19/udp    open|filtered chargen         no-response
+49/udp    open|filtered tacacs          no-response
+53/udp    open|filtered domain          no-response
+67/udp    closed        dhcps           port-unreach ttl 64
+68/udp    open|filtered dhcpc           no-response
+69/udp    open|filtered tftp            no-response
+80/udp    open|filtered http            no-response
+88/udp    open|filtered kerberos-sec    no-response
+111/udp   open|filtered rpcbind         no-response
+120/udp   open|filtered cfdptkt         no-response
+123/udp   open|filtered ntp             no-response
+135/udp   open|filtered msrpc           no-response
+136/udp   open|filtered profile         no-response
+137/udp   open|filtered netbios-ns      no-response
+138/udp   closed        netbios-dgm     port-unreach ttl 64
+139/udp   open|filtered netbios-ssn     no-response
+158/udp   open|filtered pcmail-srv      no-response
+161/udp   open|filtered snmp            no-response
+162/udp   open|filtered snmptrap        no-response
+177/udp   open|filtered xdmcp           no-response
+427/udp   open|filtered svrloc          no-response
+443/udp   open|filtered https           no-response
+445/udp   open|filtered microsoft-ds    no-response
+497/udp   open|filtered retrospect      no-response
+500/udp   open|filtered isakmp          no-response
+514/udp   open|filtered syslog          no-response
+515/udp   open|filtered printer         no-response
+518/udp   open|filtered ntalk           no-response
+520/udp   open|filtered route           no-response
+593/udp   closed        http-rpc-epmap  port-unreach ttl 64
+623/udp   open|filtered asf-rmcp        no-response
+626/udp   open|filtered serialnumberd   no-response
+631/udp   open|filtered ipp             no-response
+996/udp   closed        vsinet          port-unreach ttl 64
+997/udp   closed        maitrd          port-unreach ttl 64
+998/udp   open|filtered puparp          no-response
+999/udp   open|filtered applix          no-response
+1022/udp  open|filtered exp2            no-response
+1023/udp  open|filtered unknown         no-response
+1025/udp  open|filtered blackjack       no-response
+1026/udp  open|filtered win-rpc         no-response
+1027/udp  open|filtered unknown         no-response
+1028/udp  open|filtered ms-lsa          no-response
+1029/udp  open|filtered solid-mux       no-response
+1030/udp  open|filtered iad1            no-response
+1433/udp  closed        ms-sql-s        port-unreach ttl 64
+1434/udp  open|filtered ms-sql-m        no-response
+1645/udp  open|filtered radius          no-response
+1646/udp  open|filtered radacct         no-response
+1701/udp  open|filtered L2TP            no-response
+1718/udp  open|filtered h225gatedisc    no-response
+1719/udp  open|filtered h323gatestat    no-response
+1812/udp  closed        radius          port-unreach ttl 64
+1813/udp  open|filtered radacct         no-response
+1900/udp  open|filtered upnp            no-response
+2000/udp  open|filtered cisco-sccp      no-response
+2048/udp  closed        dls-monitor     port-unreach ttl 64
+2049/udp  closed        nfs             port-unreach ttl 64
+2222/udp  open|filtered msantipiracy    no-response
+2223/udp  open|filtered rockwell-csp2   no-response
+3283/udp  open|filtered netassistant    no-response
+3456/udp  closed        IISrpc-or-vat   port-unreach ttl 64
+3703/udp  open|filtered adobeserver-3   no-response
+4444/udp  open|filtered krb524          no-response
+4500/udp  open|filtered nat-t-ike       no-response
+5000/udp  closed        upnp            port-unreach ttl 64
+5060/udp  closed        sip             port-unreach ttl 64
+5353/udp  open|filtered zeroconf        no-response
+5632/udp  open|filtered pcanywherestat  no-response
+9200/udp  open|filtered wap-wsp         no-response
+10000/udp open|filtered ndmp            no-response
+17185/udp open|filtered wdbrpc          no-response
+20031/udp open|filtered bakbonenetvault no-response
+30718/udp open|filtered unknown         no-response
+31337/udp closed        BackOrifice     port-unreach ttl 64
+32768/udp closed        omad            port-unreach ttl 64
+32769/udp open|filtered filenet-rpc     no-response
+32771/udp open|filtered sometimes-rpc6  no-response
+32815/udp open|filtered unknown         no-response
+33281/udp open|filtered unknown         no-response
+49152/udp open|filtered unknown         no-response
+49153/udp open|filtered unknown         no-response
+49154/udp open|filtered unknown         no-response
+49156/udp open|filtered unknown         no-response
+49181/udp open|filtered unknown         no-response
+49182/udp closed        unknown         port-unreach ttl 64
+49185/udp open|filtered unknown         no-response
+49186/udp open|filtered unknown         no-response
+49188/udp closed        unknown         port-unreach ttl 64
+49190/udp open|filtered unknown         no-response
+49191/udp open|filtered unknown         no-response
+49192/udp open|filtered unknown         no-response
+49193/udp open|filtered unknown         no-response
+49194/udp open|filtered unknown         no-response
+49200/udp open|filtered unknown         no-response
+49201/udp open|filtered unknown         no-response
+65024/udp open|filtered unknown         no-response
+MAC Address: BC:24:11:FD:E7:5D (Unknown)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov  7 08:22:12 2024 -- 256 IP addresses (2 hosts up) scanned in 869.72 seconds
